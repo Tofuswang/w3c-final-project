@@ -139,7 +139,7 @@ hr {
     text-align: center;
     margin: 40px 0;
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: medium;
     display: inline-block;
     padding: 10px 0px;
 
@@ -163,6 +163,14 @@ hr {
 .cta-btn:hover {
     background-color: rgb(116, 29, 29);
 }   
+
+.cta > * {
+    margin-bottom: 10px; /* 調整這裡的值來設置間距 */
+}
+
+.cta > *:last-child {
+    margin-bottom: 0; /* 移除最後一個子元素的底部間距 */
+}
 
 .copy{
     text-align:center;
