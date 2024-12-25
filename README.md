@@ -12,10 +12,6 @@ This project is released under the CC BY 4.0 license, and everyone is welcome to
 
 ---
 
-Here’s a suggested README for your open-sourced project:
-
----
-
 # Building Shit University Template
 
 Welcome to the **Building Shit University Template**, a simple and responsive HTML and CSS-based webpage template that you can use as a foundation for your own projects.
@@ -77,7 +73,7 @@ Feel free to adjust the content further to your liking!
 
 ---
 
-以下是專案的中文版 README：
+以下是此專案的中文版 README：
 
 ---
 
