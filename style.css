@@ -15,8 +15,8 @@ body {
 
 .header {
     text-align: center;
-    padding: 200px 20% 40px 0px;
-    background-image: url(/img/temple.gif);
+    padding: 60px 60px 60px 0px;
+    background-image: url('/img/temple.gif');
     background-size: cover; /* 確保背景圖片覆蓋整個區域 */
     background-position: center; /* 將背景圖片置中 */
     background-repeat: no-repeat; /* 防止背景圖片重複 */
@@ -245,4 +245,35 @@ hr {
     .card-container {
         flex-direction: column;
     }
+}
+
+/* Applies styles when Reduced Motion is enabled */
+@media screen and (prefers-reduced-motion: reduce) {
+    .cta-btn {
+        transition: none; /* 禁用按鈕的過渡效果 */
+    }
+
+    .card {
+        animation: none; /* 禁用卡片的動畫效果 */
+    }
+
+    .header {
+        background-image: url('/img/temple-static.png'); /* 使用靜態圖片替換 GIF */
+    }
+
+    /* 其他需要禁用或簡化動畫的元素 */
+}
+
+/* Applies styles when Reduced Motion is enabled (alternative syntax) */
+@media screen and (prefers-reduced-motion) {
+    /* 禁用或簡化動畫和過渡效��� */
+    .cta-btn {
+        transition: none; /* 禁用按鈕的過渡效果 */
+    }
+
+    .card {
+        animation: none; /* 禁用卡片的動畫效果 */
+    }
+
+    /* 其他需要禁用或簡化動畫的元素 */
 }
